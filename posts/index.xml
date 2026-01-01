@@ -6,8 +6,15 @@
     <description>Recent content in Posts on xL&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Dec 2025 19:37:54 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 21:31:51 +0530</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Media Control V0</title>
+      <link>/posts/media-control-v0/</link>
+      <pubDate>Tue, 30 Dec 2025 21:31:51 +0530</pubDate>
+      <guid>/posts/media-control-v0/</guid>
+      <description>&lt;p&gt;I love Tactile Inputs. My entire childhood was spent playing with &amp;ldquo;dumb&amp;rdquo; phones, Blackberrys, and telephones. The first media player I owned was a Sony Walkman B Series, with it&amp;rsquo;s crisp twist dial for changing songs, and the play/pause button that your hand could not miss. So to say I&amp;rsquo;m a bit dissapointed by the development of display-first UIs for every device in existence (including your car), would be an understatement.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reintroducing</title>
       <link>/posts/reintroducing/</link>

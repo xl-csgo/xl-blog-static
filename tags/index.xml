@@ -6,8 +6,15 @@
     <description>Recent content in Tags on xL&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Dec 2025 19:37:54 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 21:31:51 +0530</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technology</title>
+      <link>/tags/technology/</link>
+      <pubDate>Tue, 30 Dec 2025 21:31:51 +0530</pubDate>
+      <guid>/tags/technology/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Counter-Strike</title>
       <link>/tags/counter-strike/</link>
@@ -27,13 +34,6 @@
       <link>/tags/f1/</link>
       <pubDate>Fri, 26 Dec 2025 19:37:54 +0530</pubDate>
       <guid>/tags/f1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>/tags/general/</link>
-      <pubDate>Fri, 26 Dec 2025 19:37:54 +0530</pubDate>
-      <guid>/tags/general/</guid>
       <description></description>
     </item>
   </channel>

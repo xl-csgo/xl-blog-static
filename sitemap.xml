@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/posts/media-control-v0/</loc>
+    <lastmod>2025-12-30T21:31:51+05:30</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2025-12-30T21:31:51+05:30</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-12-30T21:31:51+05:30</lastmod>
+  </url><url>
+    <loc>/tags/technology/</loc>
+    <lastmod>2025-12-30T21:31:51+05:30</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-12-30T21:31:51+05:30</lastmod>
+  </url><url>
     <loc>/tags/counter-strike/</loc>
     <lastmod>2025-12-26T19:37:54+05:30</lastmod>
   </url><url>
@@ -11,19 +26,7 @@
     <loc>/tags/f1/</loc>
     <lastmod>2025-12-26T19:37:54+05:30</lastmod>
   </url><url>
-    <loc>/tags/general/</loc>
-    <lastmod>2025-12-26T19:37:54+05:30</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2025-12-26T19:37:54+05:30</lastmod>
-  </url><url>
     <loc>/posts/reintroducing/</loc>
-    <lastmod>2025-12-26T19:37:54+05:30</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2025-12-26T19:37:54+05:30</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2025-12-26T19:37:54+05:30</lastmod>
   </url><url>
     <loc>/categories/</loc>

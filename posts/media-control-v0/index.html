@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Media Control V0 :: xL&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="An ESP32, a handful of buttons, a mini-tin, and a soldering iron led to a 2am project that I did not expect to work." />
+<meta name="keywords" content="Technology, Media Controller, ESP32" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="/posts/media-control-v0/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+<link rel="stylesheet" href="/terminal.css">
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="xL_csgo" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Media Control V0">
+<meta property="og:description" content="An ESP32, a handful of buttons, a mini-tin, and a soldering iron led to a 2am project that I did not expect to work." />
+<meta property="og:url" content="/posts/media-control-v0/" />
+<meta property="og:site_name" content="xL&#39;s Blog" />
+
+  
+  
+  <meta property="og:image" content="/">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-12-30 21:31:51 &#43;0530 IST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    xL&#39;s Blog
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/tags/counter-strike/">Counter-Strike</a></li>
+        
+      
+        
+          <li><a href="/tags/f1/">F1</a></li>
+        
+      
+        
+          <li><a href="/tags/technology/">Technology</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/tags/counter-strike/" >Counter-Strike</a></li>
+        
+      
+        
+          <li><a href="/tags/f1/" >F1</a></li>
+        
+      
+        
+          <li><a href="/tags/technology/" >Technology</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="/posts/media-control-v0/">Media Control V0</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-12-30</time><span class="post-author">xL</span><span class="post-reading-time">4 min read (835 words)</span></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="/tags/technology/">Technology</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="/posts/media-control-v0/cover.png"
+    class="post-cover"
+    alt="Media Control V0"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <p>I love Tactile Inputs. My entire childhood was spent playing with &ldquo;dumb&rdquo; phones, Blackberrys, and telephones. The first media player I owned was a Sony Walkman B Series, with it&rsquo;s crisp twist dial for changing songs, and the play/pause button that your hand could not miss. So to say I&rsquo;m a bit dissapointed by the development of display-first UIs for every device in existence (including your car), would be an understatement.</p>
+<p>That&rsquo;s why devices like the (sadly discontinued) Spotify Car Thing, and the Pioneer SXT-C10PS with its retro-functional design intrigue me a lot. But as it stands, Spotify isn&rsquo;t my music app of choice, and I don&rsquo;t currently own my own car to install the Pioneer, yet I&rsquo;d still love to have physical control over my media. So time to put my Electrical and Computer Engineering degree to use right?</p>
+<figure><img src="/posts/media-control-v0/breadboard-circuit.jpeg"
+    alt="Breadboard Circuit for ESP32 Media Control"><figcaption>
+      <p>The four button breadboard circuit worked!</p>
+    </figcaption>
+</figure>
+
+<h2 id="breadboard-prototypes-should-always-be-step-1">Breadboard prototypes should always be step 1<a href="#breadboard-prototypes-should-always-be-step-1" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>So after rummaging through my tiny box of electronics, I found an ESP32 development board, a few buttons, and my fire-hazard soldering iron (FHSI). A short tangent on the soldering iron. The FHSI cost me a singular US Dollar to purchase, has no fuse, or temperature control or any other form of safety device. And it never reaches a temperature that properly melts solder, so all in all, perfectly fit for projects like these. (Yes I&rsquo;m working on acquiring a better iron, but for now the fire-hazard jokes will suffice).</p>
+<p>So with these parts on a breadboard I set off to actually research my problem. The first step was reflashing that ESP32 with the default firmware (fixing my earlier mistake of installing MicroPython). Very quickly, I stumbled upon the ESP32 BLE Keyboard library, and it looked perfect. Within 10 minutes, I had the whole thing set up, with the microcontroller talking to my laptop perfectly, and the buttons all performing their functions. Though, this was still all on the breadboard. Time to move it to its own circuit.</p>
+<figure><img src="/posts/media-control-v0/tin.JPG"
+    alt="A watermelon Impact mints case"><figcaption>
+      <p>Impact mints really make a good ESP32 case. (This one&rsquo;s watermelon)</p>
+    </figcaption>
+</figure>
+
+<h2 id="impact-mintsthe-perfectly-sized-box-for-micro-projects">Impact Mints—The perfectly sized box for micro-projects<a href="#impact-mintsthe-perfectly-sized-box-for-micro-projects" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Before we do that though, I should explain the case I will be using for this and many future projects. I first bought a box of Impact mints when my usual 5Gum pack was out of stock. And the box was surpisingly well built, pointing to future utility beyond just mints. While Altoid tins are the container of choice for EDC kits, the Impacts are much more compact. In fact in dimensions they fit the ESP32 nearly perfectly, making them the obvious choice for such projects.</p>
+<p>But the minutive size also means I couldn&rsquo;t really have the circuit take any space beyond the ESP32 itself. Thus giving rise to this cursed sandwich. The ESP32 forms the based layer, with its header pins keeping it attached to the circuitboard which contains the buttons. The buttons then connect to their respective GPIO pins using simple wires soldered from the buttons to the pins. (I definitely should have used better pin assignments to prevent the snaking wires.)</p>
+<figure><img src="/posts/media-control-v0/four-button.JPG"
+    alt="Four button updated circuit"><figcaption>
+      <p>That missing button was the first update needed to the board.</p>
+    </figcaption>
+</figure>
+
+<h2 id="multiple-mistakes-for-v0">Multiple Mistakes for V0<a href="#multiple-mistakes-for-v0" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>With bated breath, I connected the circuit to my PC, and started the serial monitor. No luck. Not a single button worked. Luckily, this is not my first rodeo, and I knew that I had probably messed up a solder joint somewhere. And testing the circuit with a jumper cable simulating the buttons proved that hunch correct. Turns out the ground wire wasn&rsquo;t fully connected to the ESP&rsquo;s pin, needing a quick touch-up with the FHSI. That got the circuit back up to the breadboard level, and was good enough for me to call a night.</p>
+<p>The next day I tried using the media controller again, and found a fatal flaw. If you look back at the breadboard version of the circuit, you might see four buttons, but on the V0 circuit, there&rsquo;s just three. That&rsquo;s because I couldnt&rsquo;t remember the function for the fourth button while writing the code, and ended up dropping it all together. Turns out that was the pairing button, an essential in every Bluetooth device. So that spawned V0.1, with a pairing button added. This button simply clears the device&rsquo;s paired devices memory when pressed for three seconds.</p>
+<figure><img src="/posts/media-control-v0/in-tin.JPG"
+    alt="final circuit in the tin"><figcaption>
+      <p>All done, for now.</p>
+    </figcaption>
+</figure>
+
+<h2 id="future-of-the-media-control-project">Future of the Media Control project<a href="#future-of-the-media-control-project" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>As the first electronics project I&rsquo;ve completed I&rsquo;m quite happy with how it turned out. But there&rsquo;s obviously some things left to work on. First and foremost, this needs a battery. 3.3 volts in such a tiny package is realistically only possible by using LiPo batteries. And I have already ordered one, alongside the required charging circuit. In the future I&rsquo;d also love to add AVRCP Metadata access for the ESP32, with a small OLED display to show the currently playing media. But all that won&rsquo;t be happening with the current circuit, all V1 will get is the battery to allow wireless on-the-go usage.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="/posts/reintroducing/" class="button inline next">
+         [<span class="button__text">Reintroducing</span>] &gt;
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

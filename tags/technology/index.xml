@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>xL&#39;s Blog</title>
-    <link>/</link>
-    <description>Recent content on xL&#39;s Blog</description>
+    <title>Technology on xL&#39;s Blog</title>
+    <link>/tags/technology/</link>
+    <description>Recent content in Technology on xL&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Dec 2025 21:31:51 +0530</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Media Control V0</title>
       <link>/posts/media-control-v0/</link>
